@@ -13,6 +13,7 @@ function VideoDetail({ video }) {
         style={{borderRadius:'20px'}}
           width="560"
           height="315"
+          title="video player"
           src={videoSrc}
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
